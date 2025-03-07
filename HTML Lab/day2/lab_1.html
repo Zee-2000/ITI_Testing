@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+
+<body>
+    <form action="">
+        <h1>Your basic info</h1>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="passwd">Password:</label>
+        <br>
+        <input type="password" name="password" id="passwd" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+        <br>
+        <label for="age">Age:</label>
+        <br>
+        <input type="radio" name="age" id="age">
+        <label for="age">Under 16</label>
+        <br>
+        <input type="radio" name="age" id="age">
+        <label for="age">16 or Older</label>
+        <h1>Your Profile</h1>
+        <label for="bio">Biography</label>
+        <br>
+        <textarea name="" id="" cols="90" rows="3"></textarea>
+        <br>
+        <br>
+        <label for="courses">Select Courses</label>
+        <br>
+        <select name="courses" id="courses">
+            <option value="computer">Computer Science Engineering</option>
+        </select>
+        <br>
+        <br>
+        <label for="intersts">Interests:</label>
+        <br>
+        <input type="checkbox" name="engineer" id="engineer">
+        <label for="engineer">Engineering</label>
+        <br>
+        <input type="checkbox" name="buisness" id="buisness">
+        <label for="buisness">Buisness</label>
+        <br>
+        <input type="checkbox" name="law" id="law">
+        <label for="law">Law</label>
+        <br>
+        <button type="submit" style="background-color:aqua; width:500px;height:50px; font-size:large;">Submit</button>
+
+    </form>
+</body>
+
+</html>
