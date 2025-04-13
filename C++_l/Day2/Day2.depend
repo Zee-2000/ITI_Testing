@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1744113060 source:/home/zahwa/Desktop/ITI/C++_l/Day2/main.cpp
+	<iostream>
+
+1744119119 source:/home/zahwa/Desktop/ITI/C++_l/Day2/avg.cpp
+
+1744199321 source:/home/zahwa/Desktop/ITI/C++_l/Day2/simpleCalculator2.cpp
+	<iostream>
+
